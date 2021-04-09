@@ -160,8 +160,8 @@ if(mousePressedOver(restart)||(touches.length>0)){
 
   drawSprites();
   textSize(20);
-  text("Score:" + score,width-750,height-390);
-text("High Score : "+highScore,width-750,height-415)
+  text("Score:" + score,width-100,50);
+text("High Score : "+highScore,width-100,100)
 
 
 }
